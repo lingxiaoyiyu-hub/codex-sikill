@@ -1,0 +1,6 @@
+interface:
+  display_name: "标题模板写手"
+  short_description: "把任意事件改写成适合平台发布的标题"
+  default_prompt: "Use $headline-template-writer to generate headline variants from this event."
+policy:
+  allow_implicit_invocation: true
