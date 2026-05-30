@@ -1,0 +1,6 @@
+interface:
+  display_name: "头条号热点文章代理"
+  short_description: "先搜热点出选题，用户选定后再写头条号文章"
+  default_prompt: "Use $toutiao-hotspot-article-producer to search current hotspots, generate Toutiao topic options, and write the selected article."
+policy:
+  allow_implicit_invocation: true
